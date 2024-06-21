@@ -1,0 +1,15 @@
+# Entorno virtual de pipenv
+.venv/
+.virtualenvs/
+
+# Archivos compilados de Python
+__pycache__/
+*.py[cod]
+
+# Archivos de configuración
+*.env
+.envrc
+.DS_Store
+
+# Directorios del entorno de desarrollo
+.vscode/
