@@ -58,7 +58,7 @@ header .logo img{
 }
 
 .maincontent{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.062);
     padding: 50px;
     display: flex;
     width: 100%;
@@ -66,22 +66,24 @@ header .logo img{
 }
 
 .maintext{
+    margin: auto;
     width: 45%;
     height: auto;
     margin-right: 30px;
-
 }
 
 .maintext h1{
     font-size: 60px;
+    color: #EAEAEA;
+    text-shadow: 2px 2px 5px purple;
 }
 
 .maintext p{
     font-size: 30px;
 }
 
-.mainvideo{
-    box-sizing: border-box;
+.mainimg{
+    margin: auto;
     text-align: right;
 }
 
@@ -89,17 +91,20 @@ header .logo img{
 
 
 .contenido2{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.062);
     margin-top: 40px;
 }
 
 .contenido2 h2{
     text-align: center;
-    color: #d17ceb;
-    font-size: 50px;
+    font-size: 60px;
+    color: #EAEAEA;
+    text-shadow: 2px 2px 5px purple;
 }
 
 .services{
     display: flex;
+    padding: 20px;
 }
 
 .services h3{
@@ -125,12 +130,35 @@ header .logo img{
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.436);
+    display: grid;
 }
 
 .services .servi img{
     width: 150px;
     margin: 10px 20%;
 }
+
+.conts1 h2{
+    font-size: 60px;
+    color: #EAEAEA;
+    text-shadow: 2px 2px 5px purple;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Footer Styles */
